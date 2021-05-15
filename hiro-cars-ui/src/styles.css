@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #292929;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3d3d3d;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #585858;
+}
+
+.software-container {
+    padding: 11px;
+}
+
+
+.pdfViewer {
+    background: #696969 !important;
+}
+
+#toolbarContainer, .findbar, .secondaryToolbar {
+    background-image: none !important;
+}
+
+.mat-form-field-underline {
+    display: none !important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    /* border-radius: 20px !important; */
+    padding: .75em 1em 0 1em !important;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 0px !important;
+}
+
+.mat-tab-body-wrapper {
+/* //    font-family: 'Segoe UI'; */
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar  {
+    height: 5px !important;
+}
+
+.toast-container > div {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.input-link:read-only {
+    padding-bottom: 3px; 
+    border-bottom: 2px solid #00a4ef !important; 
+    margin-bottom: -5px; 
+    color: white !important; 
+    cursor: pointer;
+}
+
+.input-link:disabled {
+    border-bottom-color: rgba(255, 255, 255, 0.5) !important; 
+    color: rgba(255, 255, 255, 0.5) !important; 
+    cursor: auto;
+}
+/* 
+.mat-list-base .mat-list-item .mat-list-item-ripple, .mat-list-base .mat-list-option .mat-list-item-ripple {
+    margin: -10px 0px;
+} */
+
+.mat-expansion-panel-header.mat-expanded {
+    height: 50px !important;
+}
+
+.mat-expansion-panel-body {
+    padding: 0 10px 16px !important; 
+}
+
+.toolbar-style {
+    height: 70px;
+}
+
+.toolbar-spacer {	
+    flex: 1 1 auto;	
+}	
+
+.toolbar-img {	
+    margin-top: -5px;
+    height: 40px;	
+}	
+
+.toolbar-title {	
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: 25px;	
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background: #444444 !important;
+}
+
+.mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-flex {
+    background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.mat-input-element:disabled, .mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after {
+    color: white !important;
+}
+
+.mat-select-disabled .mat-select-value {
+    color: white !important;
+}
